@@ -8,12 +8,20 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@astrojs/solid-js": "^1.1.0",
     "astro": "^1.4.0",
     "solid-js": "^1.5.7",
     "unocss": "^0.45.26"
+  },
+  "devDependencies": {
+    "@yuusheng/eslint-config": "^0.0.4",
+    "eslint": "^8.24.0"
+  },
+  "eslintConfig": {
+    "extends": "@yuusheng"
   }
 }
